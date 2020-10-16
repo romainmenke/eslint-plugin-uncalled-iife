@@ -26,5 +26,10 @@
   },
   "peerDependencies": {
     "eslint": "^7.11.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
 }
