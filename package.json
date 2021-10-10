@@ -1,10 +1,10 @@
 {
   "name": "eslint-plugin-uncalled-iife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallow uncalled IIFE",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/test"
+    "test": "node ./test/test && node ./test/test-eslint-7"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/romainmenke/eslint-plugin-uncalled-iife#readme",
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^8.0.0",
+    "eslint-7": "npm:eslint@7"
   },
   "peerDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0 || ^8.0.0"
   },
   "directories": {
     "lib": "lib",
