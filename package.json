@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/romainmenke/eslint-plugin-uncalled-iife#readme",
   "devDependencies": {
-    "eslint": "^8.0.0",
+    "eslint": "^9.2.0",
     "eslint-7": "npm:eslint@7"
   },
   "peerDependencies": {
