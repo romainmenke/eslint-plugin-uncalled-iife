@@ -1,7 +1,7 @@
 "use strict";
 
 const rule = require("../lib/rule.js");
-const RuleTester = require("eslint").RuleTester;
+const RuleTester = require("eslint-8").RuleTester;
 
 const ruleTester = new RuleTester();
 

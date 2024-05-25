@@ -14,6 +14,9 @@ ruleTester.run("uncalled-iife", rule, {
 			code: "(function(){ }())"
 		},
 		{
+			code: "(function(){ })()"
+		},
+		{
 			code: "var alpha = function(){ };"
 		}
 	],
@@ -23,7 +26,7 @@ ruleTester.run("uncalled-iife", rule, {
 			errors: [{ message: "Possible uncalled IIFE" }]
 		},
 		{
-			code: "(function(){ })",
+			code: "(function(){ });(function(){ }())",
 			errors: [{ message: "Possible uncalled IIFE" }]
 		}
 	]
